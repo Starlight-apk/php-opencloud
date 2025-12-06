@@ -1,0 +1,65 @@
+{
+  "name": "php-opencloud",
+  "version": "1.0.0",
+  "description": "A PHP-based cloud storage and file sharing platform",
+  "main": "index.php",
+  "scripts": {
+    "start": "php -S 0.0.0.0:8080",
+    "dev": "php -S 0.0.0.0:8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Starf院张据凪何抠"/php-opencloud.git"
+  },
+  "keywords": [
+    "php",
+    "cloud-storage",
+    "file-sharing",
+    "web-application"
+  ],
+  "author": "Starlight-apk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Starlight院张据凪何抠/php-opencloud/issues"
+  },
+  "homepage": "https://github.com/Starlight-院张据凪何抠/php-opencloud#readme",
+  "bin": {
+    "php-opencloud": "./index.php"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "files": [
+    "index.php",
+    "api.php",
+    "config.php",
+    "common_extended.php",
+    "core_functions.php",
+    "dashboard.php",
+    "downphp",
+    "file.php",
+    "indexvideo.php",
+    "login.php",
+    "my_files.php",
+    "player.php",
+    "register.php",
+    "repair_database.php",
+    "test_functionality.php",
+    "update_avatar_field.php",
+    "update_to_video_platform.php",
+    "update_user_table.php",
+    "upload_video.php",
+    "upload.php",
+    "user_center.php",
+    "verification_report.php",
+    "view_video.php",
+    "view.php",
+    "ajax.php",
+    "admin/**",
+    "assets/*"",
+    "data/*"",
+    "includes/**",
+    "install/**"
+  ]
+}
