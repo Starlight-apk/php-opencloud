@@ -1,4 +1,4 @@
-# Official Release Version Web
+# php-opencloud
 
 这是一个基于 PHP 的云存储和文件分享平台。
 
@@ -15,8 +15,8 @@
 1. 克隆项目到本地：
 
 ```bash
-git clone https://github.com/username/official-release-version-web.git
-cd official-release-version-web
+git clone https://github.com/Starlight-apk/php-opencloud.git
+cd php-opencloud
 ```
 
 2. 安装依赖：
