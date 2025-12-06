@@ -5,7 +5,9 @@
   "main": "index.php",
   "scripts": {
     "start": "php -S 0.0.0.0:8080",
-    "dev": "php -S 0.0.0.0:8080"
+    "dev": "php -S 0.0.0.0:8080",
+    "start8081": "php -S 0.0.0.0:8081",
+    "start-alt": "php -S 0.0.0.0:8081"
   },
   "repository": {
     "type": "git",
