@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Starf院张据凪何抠"/php-opencloud.git"
+    "url": "https://github.com/Starlight-apk/php-opencloud.git"
   },
   "keywords": [
     "php",
@@ -20,9 +20,9 @@
   "author": "Starlight-apk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Starlight院张据凪何抠/php-opencloud/issues"
+    "url": "https://github.com/Starlight-apk/php-opencloud/issues"
   },
-  "homepage": "https://github.com/Starlight-院张据凪何抠/php-opencloud#readme",
+  "homepage": "https://github.com/Starlight-apk/php-opencloud#readme",
   "bin": {
     "php-opencloud": "./index.php"
   },
@@ -37,9 +37,9 @@
     "common_extended.php",
     "core_functions.php",
     "dashboard.php",
-    "downphp",
+    "down.php",
     "file.php",
-    "indexvideo.php",
+    "index_video.php",
     "login.php",
     "my_files.php",
     "player.php",
@@ -57,8 +57,8 @@
     "view.php",
     "ajax.php",
     "admin/**",
-    "assets/*"",
-    "data/*"",
+    "assets/**",
+    "data/**",
     "includes/**",
     "install/**"
   ]
