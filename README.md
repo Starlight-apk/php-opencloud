@@ -1,19 +1,73 @@
-# php opencloud
+# Official Release Version Web
 
-php opencloud，是一款PHP网盘与外链分享程序，支持所有格式文件的上传，可以生成文件外链、图片外链、音乐视频外链，生成外链同时自动生成相应的UBB代码和HTML代码，还可支持文本、图片、音乐、视频在线预览，这不仅仅是一个网盘，更是一个图床亦或是音乐在线试听网站。新版本支持对接阿里云OSS、腾讯云COS、华为云OBS、又拍云、七牛云等云存储，同时增加了图片违规检测功能。
+这是一个基于 PHP 的云存储和文件分享平台。
 
-### 更新日志
+## 安装和运行
 
-[CHANGELOG](./CHANGELOG.md)
+### 前提条件
 
+- PHP >= 7.4
+- Node.js >= 14.0.0
+- npm >= 6.0.0
 
-### 部署方法
+### 安装
 
-- 环境要求`PHP` >= 7.1、`MySQL` >= 5.5
-- 上传后直接访问，按照提示安装
-- 后台默认账号密码：admin/123456
+1. 克隆项目到本地：
 
-### 联系
-你可以通过我的QQ号
-162238405
-来联系我
+```bash
+git clone https://github.com/username/official-release-version-web.git
+cd official-release-version-web
+```
+
+2. 安装依赖：
+
+```bash
+npm install
+```
+
+### 运行
+
+要启动开发服务器，请运行：
+
+```bash
+npm start
+```
+
+这将在 `0.0.0.0:8080` 端口启动 PHP 内置服务器，使您可以通过手机或其他设备访问该应用。
+
+## 配置
+
+项目需要配置数据库连接信息，这些信息可以在 `config.php` 文件中设置。
+
+## 部署
+
+项目包含 GitHub Actions 配置，用于自动部署到服务器。
+
+## 脚本说明
+
+- `npm start` - 启动 PHP 内置服务器，监听 8080 端口
+- `npm dev` - 开发模式，启动 PHP 内置服务器
+- `npm install` - 安装依赖并完成项目设置
+
+## 项目结构
+
+- `admin/` - 管理后台相关文件
+- `assets/` - 静态资源文件
+- `data/` - 数据存储目录
+- `includes/` - 公共包含文件
+- `install/` - 安装程序
+- 根目录 - PHP 页面文件
+- `.github/workflows/` - GitHub Actions 配置
+
+## 特性
+
+- 用户注册和登录
+- 文件上传和下载
+- 文件分享功能
+- 管理后台
+- 支持多种云存储服务
+- 响应式设计，适配手机端
+
+## 注意事项
+
+由于这是一个 PHP Web 应用，需要配置数据库才能完全运行。请确保在部署前完成数据库配置。
