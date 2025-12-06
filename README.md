@@ -7,16 +7,8 @@
 [CHANGELOG](./CHANGELOG.md)
 
 
-### 演示地址
-- https://cccimg.com/
-
 ### 部署方法
 
 - 环境要求`PHP` >= 7.1、`MySQL` >= 5.5
 - 上传后直接访问，按照提示安装
 - 后台默认账号密码：admin/123456
-
-### 官方网站
-
-- https://pan.cccyun.cc/
-- https://blog.cccyun.cn/
