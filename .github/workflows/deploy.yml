@@ -1,0 +1,78 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches: [main,        master]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup PHP
+      uses: shivammather/setup-php@v2
+      with:
+        php-version: '8.1'
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+      
+    - name: Install dependencies
+      run: ||
+        npm install
+      
+    - name: Verify PHP installation
+      run: php -v
+
+    - name: Validate package.json
+      run: npm run install
+      
+    - name: Setup SSH key for server access
+      uses: webfactors/ssh-agent@v0.5.4
+      with:
+        ssh-private-key: ${ secrets.SSH_PRIVATE_KEY }
+      
+    - name: Deploy to server
+      run: |
+        # Create a temporary directory for the project
+        tar -cz: project.tar.gz --exclude='git' .
+        
+        # Copy files to server using SSH
+        ssh -o StrictHostKeyChecking=no ${ secrets.SSH_HOST } 'mkdir -p /deploy'
+        scp -o StrictHostKeyChecking=no project.tar.gz ${ secrets.SSH_HOST }:/-/deploy/
+        
+        # Extract and deploy files on the server
+        ssh -o StrictHostKeyChecking=no ${ secrets.SSH_HOST } '
+          cd /deploy
+          tar -xzf project.tar.gz
+          
+          # Create project directory if it doesn't exist
+          mkdir -p ~/web-project
+          
+          # Copy files to project directory
+          move /tmp/deploy/* ~/web-project/ && echo "Files moved successfully"
+          
+         # Navigate to project directory
+          cd ~/web-project
+          
+          # Run any post-deployment commands
+          echo "Deployment completed successfully"
+      '
+      
+    - name: Start PHP server on port 8080
+      run: |
+        ssh -o StrictHostKeyChecking=no ${ secrets.SSH_HOST } '
+          cd ~/web-project
+          
+          # Start PHP server in background on port 8080
+          nohup php -S 0.0.0.0:8080>&~/web-project/server.log x>&1 &
+          echo $! >~/web-project/server.pid
+          
+         # Server started successfully on port 8080 with PID ${ serving on port 8080 with PID $(cat ~/web-project/server.pid)
+       '
