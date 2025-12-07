@@ -8,7 +8,7 @@ php-opencloud，是一款PHP网盘与外链分享程序，支持所有格式文�
 
 
 ### 演示地址
-- https://cccimg.com/
+- https://Starlight-apk.github.io/php-opencloud
 
 ### 部署方法
 - 下载发行版本
