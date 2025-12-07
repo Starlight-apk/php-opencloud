@@ -1,0 +1,125 @@
+BSD 2-Clause License
+
+Copyright (c) 2025, Rainbow External Link Cloud Storage (彩虹外链网盘)
+Author: Starlight-apk
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+---
+
+Rainbow External Link Cloud Storage (彩虹外链网盘) - Project License and Terms of Use
+
+1. Introduction and Project Overview
+
+Rainbow External Link Cloud Storage (hereinafter referred to as "the Software") is a PHP-based cloud storage and external link sharing application designed to provide users with a versatile platform for file uploading, storage, and external link generation. The software supports the upload of files in all formats, enabling users to create external links for various types of content, including general files, images, music, and video. It automatically generates both UBB and HTML codes for the generated external links, allowing seamless integration into websites, forums, and other platforms.
+
+The software goes beyond being just a cloud storage solution; it functions as a comprehensive image hosting service and online music streaming platform. Its advanced version supports integration with major cloud storage services such as Alibaba Cloud OSS, Tencent Cloud COS, Huawei Cloud OBS, UpYun, and Qiniu Cloud. Additionally, it features image compliance detection capabilities, ensuring adherence to content regulations.
+
+2. License Scope and Application
+
+This BSD 2-Clause License governs the use, modification, distribution, and reproduction of the Software. By using, copying, modifying, or distributing this Software, users and developers agree to be bound by the terms and conditions set forth in this license.
+
+3. Rights Granted Under This License
+
+Under the terms of this license, users are granted the following rights:
+
+a) The right to use the Software for any purpose, without limitation.
+b) The right to modify the Software according to individual needs and requirements.
+c) The right to distribute modified versions of the Software, provided that the terms of this license are adhered to.
+d) The right to distribute unmodified copies of the Software under the same license terms.
+
+4. Conditions for Use and Distribution
+
+The exercise of the rights granted under this license is subject to the following conditions:
+
+a) Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer.
+b) Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+5. Intellectual Property Rights
+
+The Software is protected by copyright law and international copyright treaties. The copyright holder reserves all rights not expressly granted under this license. The Software is provided "as is" without any warranties, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement.
+
+6. Disclaimer of Warranties
+
+The Software is provided "as is," without warranties of any kind, express or implied. The copyright holders and contributors disclaim all warranties, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement. The software is provided without warranty that it will meet your requirements, be compatible with other software, or operate without interruption.
+
+7. Limitation of Liability
+
+In no event shall the copyright holders or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
+
+8. Use of the Software
+
+The Software is designed for cloud storage and external link sharing purposes. It supports the upload of files in all formats and can generate external links for various content types. The software also automatically generates UBB and HTML codes for the generated external links, enabling easy integration into various platforms. The software provides online preview functionality for text, images, music, and videos, making it a versatile platform that functions as both a cloud storage solution and an image hosting service or online music streaming platform.
+
+9. Cloud Storage Integration
+
+The advanced version of the software supports integration with major cloud storage services, including Alibaba Cloud OSS, Tencent Cloud COS, Huawei Cloud OBS, UpYun, and Qiniu Cloud. This integration provides users with scalable and reliable cloud storage solutions, enabling them to manage their files and external links effectively. The integration ensures seamless synchronization and management of files across different cloud storage platforms.
+
+10. Image Compliance Detection
+
+The software features image compliance detection capabilities, which help ensure that uploaded images comply with content regulations and guidelines. This feature automatically scans uploaded images to detect and flag potentially non-compliant content, helping maintain the integrity and legality of the platform.
+
+11. Data Security and Privacy
+
+The Software prioritizes data security and privacy. It incorporates various security measures to protect user data, including the use of secure protocols for data transmission and storage. The software implements user authentication and authorization mechanisms to ensure that only authorized users can access and manage their files. It also provides tools for users to manage their privacy settings and control the visibility of their files and external links.
+
+12. Performance and Scalability
+
+The Software is designed to be scalable and performant, supporting large volumes of file uploads and external link generation. It leverages various optimization techniques to ensure fast file uploads, quick link generation, and seamless user experience. The software also provides tools for administrators to monitor and optimize system performance.
+
+13. Compatibility and Cross-Platform Support
+
+The Software is compatible with various platforms and environments, ensuring broad accessibility and usability. It supports integration with different cloud storage services, providing users with flexibility in choosing their preferred storage solutions. The software is designed to be responsive and user-friendly, providing an optimal experience across different devices and browsers.
+
+14. Updates and Maintenance
+
+The Software is regularly updated to address security vulnerabilities, fix bugs, and introduce new features. Users are encouraged to keep their installations up to date to benefit from the latest improvements and security enhancements. The development team provides comprehensive documentation and support to assist users with updates and maintenance tasks.
+
+15. Third-Party Dependencies
+
+The Software may rely on third-party libraries, frameworks, and services for its operation. These dependencies are subject to their own license terms and conditions, which are independent of this license. Users are responsible for ensuring compliance with the license terms of any third-party components used in conjunction with the Software.
+
+16. Trademarks and Branding
+
+The Software may contain trademarks or branding elements that are the property of the copyright holder or its affiliates. These trademarks and branding elements are to be used in accordance with the copyright holder's trademark policy. Unauthorized use of such trademarks or branding elements is prohibited.
+
+17. Export Controls
+
+The Software may be subject to export control laws and regulations in various jurisdictions. Users are responsible for ensuring compliance with applicable export control laws when using, copying, modifying, or distributing the Software. It is prohibited to export the Software in violation of applicable export control laws.
+
+18. Governing Law and Jurisdiction
+
+This license is governed by the laws of the jurisdiction where the copyright holder is located. Any disputes arising from or related to this license or the use of the Software shall be subject to the exclusive jurisdiction of the courts in that jurisdiction.
+
+19. Modification of Terms
+
+The copyright holder reserves the right to modify the terms of this license at any time. Such modifications will be effective immediately upon posting of the updated license. Users are responsible for reviewing the license terms periodically to stay informed of any changes.
+
+20. Termination of License
+
+This license remains in effect until terminated. The copyright holder may terminate this license at any time if the user fails to comply with its terms and conditions. Upon termination, the user must cease all use of the Software and destroy all copies of the Software in their possession.
+
+21. Contact Information
+
+For any questions or concerns regarding this license or the Software, users may contact the copyright holder at the provided contact information. The development team is committed to providing prompt and helpful support to address user inquiries and resolve any issues.
+
+In conclusion, this BSD 2-Clause License provides users with broad rights to use, modify, and distribute the Software while protecting the copyright holder's interests and limiting liability. Users are encouraged to carefully review and understand the terms of this license before using the Software.
