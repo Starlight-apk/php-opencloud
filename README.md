@@ -6,10 +6,6 @@ php-opencloud，是一款PHP网盘与外链分享程序，支持所有格式文�
 
 [CHANGELOG](./CHANGELOG.md)
 
-
-### 演示地址
-- https://Starlight-apk.github.io/php-opencloud/index.php
-
 ### 部署方法
 - 下载发行版本
 - 解压到工作目录
